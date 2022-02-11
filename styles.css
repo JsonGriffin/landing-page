@@ -188,11 +188,24 @@ button a {
 
 footer {
   text-align: center;
-  padding: 32px 0px;
+  padding: 8px 0px 16px;
   background-color: #1f2937;
   color: #f9faf8;
 }
 
+.disclaimer {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
 .copyright {
-  width: 2ch;
+  font-size: 14px;
+  color: #e5e7ebc7;
+}
+
+details:hover,
+details:focus {
+  cursor: pointer;
+  color: rgb(250, 49, 49);
 }
