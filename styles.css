@@ -204,8 +204,7 @@ footer {
   color: #e5e7ebc7;
 }
 
-details:hover,
-details:focus {
+summary:hover {
   cursor: pointer;
   color: rgb(250, 49, 49);
 }
